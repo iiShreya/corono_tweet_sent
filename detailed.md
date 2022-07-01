@@ -1,0 +1,11 @@
+Logistic Regression: 
+
+
+
+
+
+Adam Optimiser:
+
+
+
+
