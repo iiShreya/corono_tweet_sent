@@ -56,25 +56,25 @@ We convert each categorical value into a new categorical column and assign a bin
 ## Fit data to the Deep Learning Models:
 
 ## 1. BERT
-optimizer: Adam
-learning rate: 1^-5
-decay rate: 1^-7
-epochs: 1
-loss: categorical cross entropy
-accuracy: categorical accuracy
-input layer: 128 neurons
-output layer: 3 neurons
+optimizer: Adam\
+learning rate: 1^-5\
+decay rate: 1^-7\
+epochs: 1\
+loss: categorical cross entropy\
+accuracy: categorical accuracy\
+input layer: 128 neurons\
+output layer: 3 neurons\
 activation: softmax
 
 ## 2. RoBERTa
-optimizer: Adam
-learning rate: 1^-5
-decay rate: 1^-7
-epochs: 1
-loss: categorical cross entropy
-accuracy: categorical accuracy
-input layer: 128 neurons
-output layer: 3 neurons
+optimizer: Adam\
+learning rate: 1^-5\
+decay rate: 1^-7\
+epochs: 1\
+loss: categorical cross entropy\
+accuracy: categorical accuracy\
+input layer: 128 neurons\
+output layer: 3 neurons\
 activation: softmax
 
 ## Metrics for Deep Learning Algorithms:
