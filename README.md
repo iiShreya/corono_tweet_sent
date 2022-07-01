@@ -44,10 +44,46 @@ We convert each categorical value into a new categorical column and assign a bin
 - Recall : TP/TP+FN
 - F1 Score : 2 * Precision * Recall / (Precision + Recall)
 
+## Results:
+1. Naive Bayes Classifier: F1 Score: 70%
+
+2. Logistic Regression Classifier: F1 Score: 78%
+
+3. Random Forest Classifier: F1 Score: 67%
+
+4. K Nearest Neighbours Classifier: F1 Score: 47%
+
 ## Fit data to the Deep Learning Models:
 
 ## 1. BERT
-
+optimizer: Adam
+learning rate: 1^-5
+decay rate: 1^-7
+epochs: 1
+loss: categorical cross entropy
+accuracy: categorical accuracy
+input layer: 128 neurons
+output layer: 3 neurons
+activation: softmax
 
 ## 2. RoBERTa
+optimizer: Adam
+learning rate: 1^-5
+decay rate: 1^-7
+epochs: 1
+loss: categorical cross entropy
+accuracy: categorical accuracy
+input layer: 128 neurons
+output layer: 3 neurons
+activation: softmax
+
+## Metrics for Deep Learning Algorithms:
+- Precision : TP/TP+FP
+- Recall : TP/TP+FN
+- F1 Score : 2 * Precision * Recall / (Precision + Recall)
+- Confusion Matrix 
+
+## Results:
+1. BERT: F1 Score: 85%
+2. RoBERTa: F1 Score: 88%
 
